@@ -32,8 +32,10 @@ You can compare entire list element by element using comparison operators
 
 Tuples:
 
-not modifiable
+Immutable - not modifiable
 
-can hold items of same or diffrent type
+Typically heterogeneous but it can be homogeneous
+
+Tuple's length is its number of elements and cannot change during program execution
 
 ### Chapter 6
