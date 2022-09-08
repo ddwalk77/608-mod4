@@ -101,6 +101,10 @@ Built-in map function: 1st argument is a function that receives one value and re
 
 Custom reductions can be created using the functools module's reduce function
 
+Two-dimensional Lists
+- Lists can contain other lists as elements. Typical use is to represent tables (rows & columns) of values. Toidentify a particular table element, we specify two indices (row & column). These are referred to as two-dimensional lists, double-indexed lists, or double subscripted lists.
+- Can have more than two indices. These are called multidimensional lists
+- A list with m rows and n columns is called an m-by-n list and has m x n elements.
 
 
 ### Chapter 6
