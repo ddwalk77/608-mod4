@@ -69,4 +69,16 @@ Searching Sequences
 - built in function any returns True if any item in its iterable argument is True
 - built in function all returns True if all items in its iterable argument are True
 
+Other list methods
+- insert
+- append
+- extend
+- remove
+- clear
+- count
+- reverse
+- copy
+- push(look this up)
+- pop(look this up)
+
 ### Chapter 6
