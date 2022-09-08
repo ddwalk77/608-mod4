@@ -78,7 +78,29 @@ Other list methods
 - count
 - reverse
 - copy
-- push(look this up)
-- pop(look this up)
+Python doesn't have a buil in stack type, but you can think of a stack as a constrained list. LIFO order
+- push - Push using list method append, which adds a new element to the end of a list
+- pop - Pop using list method pop with no arguments, which removes and returns the item at the end of the list
+Queue - Collection in which you insert at the back and delete form the front. Items are retrieved in FIFO order
+List comprehensions can replace many for statements that iterate over existing sequences and create new lists
+- Mapping, by performing calculations, is a common functional-style programming operation that produces a result with the same number of elements as the original data being mapped.
+- for clause iterates over the sequence produced by range. For each item, the list comprehension evaluates the expression to the left of the for clause and places the expression's value in the new list
+- if clause filters sequence elements
+
+Python functions are objects that you can assign to variables, pass to other functions and return from functions
+Functions that receive other functions as arguments are a functional style capability called higher-order functions
+
+Built-in filter function: filters 1st argument must be a function that receives one argument and returns True if the vlaue should be included in the result. The 1st argument is called for each vlaue in the 2nd argument's iterable. Higher order functions may also return a function as a result.
+
+A lambda expression is an anonymous function , function without a name. A lambda begins with the keyword lambda followed by a comme-seperated parameter list a colon (:) and an expression. A lambda implicity returns its expression's value. Any simple function of form
+def function_name(parameter_list):
+    return expression
+may be expressed as lambda parameter_list: expression
+
+Built-in map function: 1st argument is a function that receives one value and returns a new value. 2nd argument is an iterable of values to map.
+
+Custom reductions can be created using the functools module's reduce function
+
+
 
 ### Chapter 6
