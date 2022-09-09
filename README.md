@@ -108,3 +108,25 @@ Two-dimensional Lists
 
 
 ### Chapter 6
+
+Dictionaries
+
+Dictionary is an unordered collection which stores key-value pairs that map immutable keys to values. 
+A dictionary associates keys with values. Each key maps to a specific value.
+Dictionary's keys must be immutable and unique. Multiple keys can have the same value.
+Dictionary is created with curly brackets {}, a comma-separated list of key-value pairs (key:value). 
+A dictionary can be empty. An empty dictionary evaluates to False
+Determining if a Dictionary Is Empty - returns the number of key-value pairs
+String keys are case sensitive. Assigning to a nonexistent key inserts the key-value pair
+Attempting to Access a Nonexistent Key creates a KeyError
+Can use dictionary method get, which normally returns it's arguments corresponding value. Returns None if key is not found or you can specify a 2nd argument to get that returns a value if not found.
+Operators in & not in can determine whether a dictionary contains a specified key
+Dictionary methods items, keys, and vlaues each return a view of a dictionary's data. 
+When you iterate over a view, it "sees" the dictionary's current contents - it does NOT have its own copy of the data
+Don't modify a dictionary while iterating through a view.
+Pass the view returned by keys, values, or items to the built-in list function. Modifying these lists does not modity the corresponding dictionary.
+Dictionary Comparisons - comparison operators can be used to determine whether two dictionaries have identical or different contents.
+Dictionary Comprehensions - provide a convenient notation for quickly generating dictionaries, often by mapping one dictionary to another
+A dictionary comprehension can map a dictionary's values to new values
+
+Sets
