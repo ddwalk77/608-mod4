@@ -130,3 +130,13 @@ Dictionaries
 - A dictionary comprehension can map a dictionary's values to new values
 
 Sets
+- unordered collection of unique values
+- may only contain immutable objects, like strings, ints, floats, and tuples that contain only immutable elements
+- do not support indexing and slicing
+- When using the built in set function we use () instead of {}
+- mutable, you can add & remove elements, but the set elements must be immutable
+- frozenset is an immutable set. A set can contain frozensets as elements. 
+- issubset same as < or >
+- issubset or issuperset can be any iterable. When either receives a non-set iterable argument, it first converts the iterable to a set, then performs the operation
+
+
