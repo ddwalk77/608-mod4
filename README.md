@@ -138,5 +138,19 @@ Sets
 - frozenset is an immutable set. A set can contain frozensets as elements. 
 - issubset same as < or >
 - issubset or issuperset can be any iterable. When either receives a non-set iterable argument, it first converts the iterable to a set, then performs the operation
-
-
+- union or | "combines" the two set elements in to one set
+- intersection or & returns elements that the two sets have in common
+- difference or - returns elements in the left not in the right
+- symmetric_difference or ^ returns elements not in common for both sets
+- isdisjoint - Two sets are disjoint if they do not have any common elements
+- Like operator |,union augmented assignment |= performs a set union operation, but |= modifies its left operand
+- The set type's update method performs a union operation modifying the set on which it's called - the argument can be any iterable
+- Other mutable set methods are:
+    - intersection augmented assignment &= : intersection_update
+    - diffrence augmented assignment -= : diffrence_update
+    - symmetric aiffrence augmented assignment ^ : symmetric_difference_update
+- set method add inserts its argument if the argument is not already in the set
+- set method remove removes its argument form the set - keyerror occurs if the value is not in the set
+- method discard also removes its argument from the set but does not cause an exception if the value is not in the set
+- you can remove an arbitrary set element and return it with pop, but sets are unordered so you don't know which element will be returned -key error returns if the set is empty when you call pop
+- clear empties the set
